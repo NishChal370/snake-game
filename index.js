@@ -143,7 +143,7 @@ function borderCollide(){
 
 function selfCollide(){
     for (let index = 0; index < snakeArray.length; index++) {
-        if(snakeArray[index] === snakeArray[0].x && snakeArray[index].y === snakeArray[0].y){
+        if(snakeArray[index].x === snakeArray[0].x && snakeArray[index].y === snakeArray[0].y){
             return true;
         }
         else{
