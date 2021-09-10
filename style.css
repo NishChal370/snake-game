@@ -1,0 +1,42 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-rows: repeat(17, 1fr);
+    grid-template-columns: repeat(19, 1fr);
+}
+
+body{
+    display: flex;
+    justify-content:flex-end;
+    align-content: center;
+    padding-top: 2rem;
+    gap: 1rem;
+    position: relative;
+}
+
+.status__container{
+    position: absolute;
+    margin-right: 12rem;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 2rem;
+}
+
+.button__container{
+    width: 10%;
+    /* font-size: 6rem; */
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.status{
+    margin-left: -6rem;
+    color: white;
+}
+
